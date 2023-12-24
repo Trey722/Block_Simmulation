@@ -1,0 +1,42 @@
+/* Popup container */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 9999;
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  /* Popup content */
+  .popup-content {
+    text-align: center;
+  }
+  
+  /* Close button */
+  .close {
+    float: right;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: red;
+  }
+  
+  /* Adjustments for input fields and labels */
+  .popup-content label,
+  .popup-content input[type="text"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .popup-content input[type="text"] {
+    width: calc(100% - 20px); /* Adjust the width of the input field */
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  

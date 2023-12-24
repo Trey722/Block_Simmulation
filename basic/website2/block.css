@@ -1,0 +1,39 @@
+body 
+{
+    background-color: black;
+    overflow: hidden;
+}
+
+.information
+ {
+    
+    top: 90px;
+    position: absolute;
+}
+
+#header
+{
+    top: 0px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+}
+
+
+#topLine
+{
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    border: none; 
+    height: 1px; 
+    background-color: white; 
+}
+#floorLine {
+    margin-top: 500px;
+    position: absolute;
+    width: 100%;
+    border: none; 
+    height: 1px; 
+    background-color: white; 
+}

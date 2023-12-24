@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="./block.css">
+    <link rel="stylesheet" href="./popUp.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="header" onclick="openPopUp('addBlock')"> Add +</h2>
+    <h2 id="header" style="margin-left: 80%;" onclick="openPopUp('edit')">Edit</h2>
+
+    <hr id="topLine">
+    <div class="information">
+
+        <p color="white">Gravity = Friction = </p>
+    </div>
+
+   
+    <div class="blockContainer">
+
+
+    </div>
+
+    <div class="popup" id="addBlock">
+        <div class="popup-content">
+          <span class="close" id="closePopup" onclick="closePopUp('addBlock')">&times;</span>
+      
+          <label for="mass">Enter Mass:</label>
+          <input type="text" id="mass" name="mass">
+      
+          <label for="velocity">Enter Initial Velocity:</label>
+          <input type="text" id="velocity" name="velocity">
+      
+          <button onclick="sendData()">Submit</button>
+        </div>
+      </div>
+
+      <div class="popup" id="error">
+        <div class="popup-content">
+          <span class="close" id="closePopup" onclick="closePopUp('error')">&times;</span>
+      
+          <h1 style="margin-right: 300px;" id="errorHeader">Error</h1>
+
+          <p id="errorText"></p>
+
+        </div>
+
+
+        
+
+
+      </div>
+
+      <div class="popup" id="warning">
+        <div class="popup-content">
+          <span class="close" id="closePopup" onclick="closePopUp('warning')">&times;</span>
+      
+          <h1 style="margin-right: 300px;">WARNING</h1>
+
+          <p id="warningText"></p>
+
+        </div>
+      </div>
+
+
+
+      <div class="popup" id="edit">
+        <div class="popup-content">
+          <span class="close" id="closePopup" onclick="closePopUp('edit')">&times;</span>
+      
+          <label for="friction">Enter new Coeeficent of Friciton:</label>
+          <input type="text" id="friction" name="friction">
+      
+          <label for="gravity">Enter new gravity:</label>
+          <input type="text" id="gravity" name="gravity">
+      
+          <button onclick="sendEdits()">Submit</button>
+        </div>
+      </div>
+
+
+      
+      
+
+      
+
+
+
+        </div>
+      </div>
+
+
+
+    <hr id="floorLine">
+
+    <script src="./blockCollision.js"> </script>
+    <script src="./blockDef.js"> </script>
+    <script src="./block.js"> </script>
+    <script src="./popUp.js"> </script>
+    
+    
+    
+</body>
+</html>
