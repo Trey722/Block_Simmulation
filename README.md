@@ -17,6 +17,8 @@ Use the + button to  add blocsk to the simmualiton
 <img width="165" alt="Screenshot 2023-12-30 at 9 26 27 AM" src="https://github.com/Trey722/Block_Simmulation/assets/141661331/6d48dd0a-120a-48ed-9ac6-77c89764a431">
 
 You don't need to type in both a velocity or mass,
+
+
   <img width="341" alt="Screenshot 2023-12-30 at 9 26 50 AM" src="https://github.com/Trey722/Block_Simmulation/assets/141661331/69d867c2-3eb2-4f68-bb54-603b667437de">
 
 ```
