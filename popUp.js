@@ -16,13 +16,8 @@ function openPopUp(idName)
     console.log(openPopUps);
 }
 
-let text = `
-Simple block simulation here: adjust friction via the edit button; add blocks with the '+' button. Friction coeff. should be 0-1, mass < 100, velocity < 50. Easy tweaks for better simulation.
-
-`;
 
 
-openError(text, "Welcome")
 
 
 
