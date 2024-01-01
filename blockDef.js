@@ -1,6 +1,6 @@
 var screenWidth = window.innerWidth;
 
-let coeffiecentofFriction = .01; 
+let coeffiecentofFriction = 0; 
 let g = -1
 
 function handleScreenWidthChange()
